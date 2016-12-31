@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/addProductPictures_bt_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@android:drawable/ic_menu_camera"
+        android:text="@string/addProductPictures_bt_add"
+        android:layout_marginBottom="13dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray" />
+
+    <GridView
+        android:layout_marginTop="13dp"
+        android:id="@+id/addProductPictures_gv_list"
+        android:numColumns="auto_fit"
+        android:layout_gravity="center"
+        android:columnWidth="90dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/primaryDrawer_title_product">
+        <menu>
+            <item
+                android:id="@+id/primaryDrawer_item_viewProduct"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/primaryDrawer_title_viewProduct" />
+            <item
+                android:id="@+id/primaryDrawer_item_addProduct"
+                android:icon="@drawable/ic_menu_add"
+                android:title="@string/primaryDrawer_title_addProduct" />
+        </menu>
+    </item>
+
+    <item android:title="@string/primaryDrawer_title_payment">
+        <menu>
+            <item
+                android:id="@+id/primaryDrawer_item_awaitingPayment"
+                android:icon="@drawable/ic_menu_wait"
+                android:title="@string/primaryDrawer_title_awaitingPayment" />
+            <item
+                android:id="@+id/primaryDrawer_item_viewPayment"
+                android:icon="@drawable/ic_menu_payment"
+                android:title="@string/primaryDrawer_title_viewPayment" />
+        </menu>
+    </item>
+
+    <item android:title="@string/primaryDrawer_title_customer">
+        <menu>
+            <item
+                android:id="@+id/primaryDrawer_item_viewCustomer"
+                android:icon="@drawable/ic_menu_customer"
+                android:title="@string/primaryDrawer_title_viewCustomer" />
+            <item
+                android:id="@+id/primaryDrawer_item_scheduleCustomer"
+                android:icon="@drawable/ic_menu_schedule"
+                android:title="@string/primaryDrawer_title_scheduleCustomer" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/primaryDrawer_item_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/primaryDrawer_title_settings" />
+    </group>
+
+</menu>

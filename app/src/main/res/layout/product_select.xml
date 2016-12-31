@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="right"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/productSelect_et_count" />
+
+    <EditText
+        android:id="@+id/productSelect_et_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:id="@+id/productSelect_ll_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="13dp"
+            android:background="@android:color/holo_red_dark" />
+
+        <Button
+            android:id="@+id/productSelect_bt_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/red_btn_bg_pressed_color"
+            android:text="@string/productSelect_bt_delete" />
+
+    </LinearLayout>
+</LinearLayout>

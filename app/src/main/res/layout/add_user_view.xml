@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addUserView_sv_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="47dp">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/addUserView_tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="13dp"
+                android:labelFor="@+id/addUserView_et_name"
+                android:text="@string/userAddFragment_tv_name" />
+
+            <EditText
+                android:id="@+id/addUserView_et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/addUserView_tv_name"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:background="@android:drawable/editbox_background"
+                android:hint="@string/userAddFragment_et_name"
+                android:inputType="textNoSuggestions" />
+
+            <Button
+                android:id="@+id/addUserView_bt_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/addUserView_et_name"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="@string/userAddFragment_tv_select" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="13dp"
+            android:background="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/addUserView_tv_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="13dp"
+                android:labelFor="@+id/addUserView_et_mobile"
+                android:text="@string/userAddFragment_tv_mobile" />
+
+            <EditText
+                android:id="@+id/addUserView_et_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/addUserView_tv_mobile"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:background="@android:drawable/editbox_background"
+                android:hint="@string/userAddFragment_et_mobile"
+                android:inputType="phone" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="13dp"
+            android:background="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/addUserView_tv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="13dp"
+                android:labelFor="@+id/addUserView_et_phone"
+                android:text="@string/userAddFragment_tv_phone" />
+
+            <EditText
+                android:id="@+id/addUserView_et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/addUserView_tv_phone"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:background="@android:drawable/editbox_background"
+                android:hint="@string/userAddFragment_et_phone"
+                android:inputType="phone" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="13dp"
+            android:background="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/addUserView_tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="13dp"
+                android:labelFor="@+id/addUserView_et_address"
+                android:text="@string/userAddFragment_tv_address" />
+
+            <EditText
+                android:id="@+id/addUserView_et_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/addUserView_tv_address"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:background="@android:drawable/editbox_background"
+                android:hint="@string/userAddFragment_et_address"
+                android:inputType="textNoSuggestions|textMultiLine"
+                android:lines="13"
+                android:maxLines="13"
+                android:minLines="5"
+                android:scrollHorizontally="false"
+                android:scrollbars="vertical" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

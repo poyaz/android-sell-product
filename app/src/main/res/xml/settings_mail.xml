@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.example.woods.amin.Preference.SettingsMailDialogPreference
+        android:capitalize="words"
+        android:defaultValue="@null"
+        android:key="settingsMail_ep_mail"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/settingsSecure_title_mail" />
+
+    <com.example.woods.amin.Preference.SettingsMailDialogPreference
+        android:capitalize="words"
+        android:defaultValue="@null"
+        android:key="settingsMail_ep_password1"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/settingsSecure_title_password1" />
+
+    <com.example.woods.amin.Preference.SettingsMailDialogPreference
+        android:capitalize="words"
+        android:defaultValue="@null"
+        android:key="settingsMail_ep_password2"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/settingsSecure_title_password2" />
+
+</PreferenceScreen>

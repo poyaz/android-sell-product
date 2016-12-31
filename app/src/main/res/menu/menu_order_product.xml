@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/orderProductMenu_item_preOrder"
+        android:orderInCategory="1"
+        android:title="@string/orderProductMenu_item_preOrder"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/orderProductMenu_item_accept"
+        android:orderInCategory="2"
+        android:title="@string/orderProductMenu_item_accept"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/orderProductMenu_item_pay"
+        android:orderInCategory="3"
+        android:title="@string/orderProductMenu_item_pay"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/orderProductMenu_item_send"
+        android:orderInCategory="4"
+        android:title="@string/orderProductMenu_item_send"
+        app:showAsAction="never" />
+</menu>

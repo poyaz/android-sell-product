@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/listViewAcceptOrder_iv_pic"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@mipmap/ic_launcher"
+            android:padding="7dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/red_btn_bg_color"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp">
+
+            <TextView
+                android:id="@+id/listViewAcceptOrder_tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@null"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/listViewAcceptOrder_tv_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="end"
+                android:text="@null"
+                android:textColor="@color/red_btn_bg_color"
+                android:textSize="21sp"
+                tools:ignore="RelativeOverlap" />
+
+            <View
+                android:id="@+id/listViewAcceptOrder_view1"
+                android:layout_width="match_parent"
+                android:layout_height="17dp"
+                android:layout_below="@id/listViewAcceptOrder_tv_title" />
+
+            <TextView
+                android:id="@+id/listViewAcceptOrder_tv_price_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/listViewAcceptOrder_view1"
+                android:text="@string/listViewAcceptOrder_tv_price"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/listViewAcceptOrder_tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/listViewAcceptOrder_view1"
+                android:layout_toEndOf="@id/listViewAcceptOrder_tv_price_title"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:text="@string/listViewAcceptOrder_number_default"
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/listViewAcceptOrder_view1"
+                android:layout_toEndOf="@id/listViewAcceptOrder_tv_price"
+                android:text="@string/listViewProduct_tv_price_type"
+                android:textSize="21sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/red_btn_bg_color"/>
+
+</LinearLayout>

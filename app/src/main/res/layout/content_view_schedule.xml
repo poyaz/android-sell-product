@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_view_schedule"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.woods.amin.Activity.ViewScheduleActivity"
+    tools:showIn="@layout/activity_view_schedule">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:layoutDirection="rtl"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/contentViewSchedule_tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="13dp"
+                android:labelFor="@+id/contentViewSchedule_et_name"
+                android:text="@string/scheduleAddFragment_tv_name" />
+
+            <TextView
+                android:id="@+id/contentViewSchedule_tv_name_schedule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/contentViewSchedule_tv_name"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:background="@android:drawable/editbox_background"
+                android:hint="@string/scheduleAddFragment_et_name" />
+
+            <Button
+                android:id="@+id/contentViewSchedule_bt_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/contentViewSchedule_tv_name_schedule"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:text="@string/scheduleAddFragment_tv_select" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="13dp"
+            android:background="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/contentViewSchedule_tv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="13dp"
+                android:labelFor="@+id/contentViewSchedule_tb_status"
+                android:text="@string/scheduleAddFragment_tv_status" />
+
+            <ToggleButton
+                android:id="@+id/contentViewSchedule_tb_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@id/contentViewSchedule_tv_status"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:textOff="@string/scheduleAddFragment_fb_status_off"
+                android:textOn="@string/scheduleAddFragment_fb_status_on" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="13dp"
+            android:background="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/contentViewSchedule_tv_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="13dp"
+                android:labelFor="@+id/contentViewSchedule_tv_description"
+                android:text="@string/scheduleAddFragment_tv_description" />
+
+            <EditText
+                android:id="@+id/contentViewSchedule_et_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/contentViewSchedule_tv_description"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:background="@android:drawable/editbox_background"
+                android:hint="@string/scheduleAddFragment_et_description"
+                android:inputType="textNoSuggestions|textMultiLine"
+                android:lines="13"
+                android:maxLines="13"
+                android:minLines="5"
+                android:scrollHorizontally="false"
+                android:scrollbars="vertical" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="13dp"
+            android:background="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/contentViewSchedule_tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="13dp"
+                android:labelFor="@+id/contentViewSchedule_dp_date"
+                android:text="@string/scheduleAddFragment_tv_date" />
+
+            <DatePicker
+                android:id="@+id/contentViewSchedule_dp_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="33dp">
+
+            </DatePicker>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="13dp"
+            android:background="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/contentViewSchedule_tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="13dp"
+                android:labelFor="@+id/contentViewSchedule_tp_time"
+                android:text="@string/scheduleAddFragment_tv_time" />
+
+            <TimePicker
+                android:id="@+id/contentViewSchedule_tp_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="63dp"
+                android:layout_marginTop="33dp">
+
+            </TimePicker>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

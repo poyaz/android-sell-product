@@ -1,0 +1,273 @@
+<resources>
+    <string name="app_name">فروش محصولات</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">آدرس پست الکترنیکی</string>
+    <string name="prompt_password">کلمه عبور</string>
+    <string name="action_sign_in">ورود</string>
+    <string name="action_sign_in_short">ورود</string>
+    <string name="error_invalid_email">آدرس پست الکترنیکی وارد معتبر نیست!</string>
+    <string name="error_invalid_password">کلمه عبور کوتاه است!</string>
+    <string name="error_incorrect_password">کلمه عبور وارد شده معتبر نیست!</string>
+    <string name="error_field_required">این فیلد الزامی است</string>
+
+    <string name="title_activity_home">خانه</string>
+    <string name="title_activity_add_product">افزودن محصول</string>
+    <string name="title_activity_edit_product">بروزرسانی محصول</string>
+    <string name="title_activity_customer">لیست مشتری ها</string>
+    <string name="title_activity_order_products">افزودن سبد</string>
+    <string name="title_activity_accept_order">بروزرسانی سفارش</string>
+    <string name="title_activity_schedule">زمان بندی</string>
+    <string name="title_activity_view_images_product">عکس های محصول</string>
+    <string name="title_activity_view_schedule">بروزرسانی زمان بندی</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="price_type_rial">ریال</string>
+
+    <string name="homeMenu_item_top">محصولات برتر</string>
+    <string name="homeMenu_item_exist">محصولات موجود</string>
+    <string name="homeMenu_item_all">همه محصولات</string>
+
+    <string name="orderProductMenu_item_preOrder">لیست سبد سفارشات</string>
+    <string name="orderProductMenu_item_accept">لیست سفارشات تایید شده</string>
+    <string name="orderProductMenu_item_pay">لیست سفارشات در انتظار پرداخت</string>
+    <string name="orderProductMenu_item_send">لیست سفارشات ارسال شده</string>
+
+    <string name="primaryNavHeader_tv_email">My email address</string>
+
+    <string name="primaryDrawer_title_product">محصولات</string>
+    <string name="primaryDrawer_title_viewProduct">لیست محصولات</string>
+    <string name="primaryDrawer_title_addProduct">افزودن محصولات</string>
+    <string name="primaryDrawer_title_payment">پرداخت ها و سفارشات</string>
+    <string name="primaryDrawer_title_awaitingPayment">لیست در انتظار پرداخت</string>
+    <string name="primaryDrawer_title_viewPayment">لیست سفارشات</string>
+    <string name="primaryDrawer_title_customer">مشتری ها</string>
+    <string name="primaryDrawer_title_viewCustomer">لیست مشتری ها</string>
+    <string name="primaryDrawer_title_scheduleCustomer">زمان بند مشتری ها</string>
+    <string name="primaryDrawer_title_settings">تنظیمات</string>
+
+    <string name="orderProduct_section_orderView">لیست سفارشات</string>
+    <string name="orderProduct_section_userView">@string/user_section_view</string>
+
+    <string name="user_section_view">لیست مشتری ها</string>
+    <string name="user_section_add">افزودن</string>
+
+    <string name="schedule_section_view">لیست زمان بندی ها</string>
+    <string name="schedule_section_add">افزودن</string>
+
+    <string name="dialogViewUser_tv_number">شماره تماس</string>
+    <string name="dialogViewUser_tv_address">آدرس</string>
+
+    <string name="addProduct_section_view">اطلاعات محصول</string>
+    <string name="addProduct_section_pictures">تصاویر</string>
+
+    <string name="acceptOrder_section_verify">اطلاعات پرداخت</string>
+    <string name="acceptOrder_section_product">اطلاعات محصولات</string>
+
+    <string name="viewProduct_image_not_fount">برای این محصول هیچ تصویری موجود نیست.</string>
+
+    <string name="listViewProduct_tv_title_default">نام محصول</string>
+    <string name="listViewProduct_tv_price">قیمت:</string>
+    <string name="listViewProduct_tv_price_default">0</string>
+    <string name="listViewProduct_tv_price_off"> </string>
+    <string name="listViewProduct_tv_price_type">@string/price_type_rial</string>
+
+    <string name="listViewAcceptOrder_tv_price">قیمت نهایی:</string>
+    <string name="listViewAcceptOrder_number_default">0</string>
+
+    <string name="acceptOrder_tv_username">نام کاربر:</string>
+    <string name="acceptOrder_tv_stats">وضعیت:</string>
+    <string name="acceptOrder_tv_fist_price">مبلغ قابل پرداخت:</string>
+    <string name="acceptOrder_tv_last_price">مبلغ نهایی:</string>
+
+    <string name="addProductView_tv_title">نام محصول:</string>
+    <string name="addProductView_et_title">لطفا نام محصول را وارد کنید</string>
+    <string name="addProductView_tv_info">توضیحات محصول:</string>
+    <string name="addProductView_tv_price">قیمت (ریال):</string>
+    <string name="addProductView_et_price">مبلغ به ریال است</string>
+    <string name="addProductView_tv_off">تخفیف:</string>
+    <string name="addProductView_tv_spinner_off">نوع تخفیف:</string>
+    <string name="addProductView_tv_count">موجودی:</string>
+    <string name="addProductView_tv_top">محصول برتر:</string>
+    <string name="addProductPictures_bt_add">افزودن عکس</string>
+
+    <string name="userAddFragment_tv_select">انتخاب</string>
+    <string name="userAddFragment_tv_name">نام کاربر:</string>
+    <string name="userAddFragment_et_name">نام کاربر خود را در اینجا وارد کنید</string>
+    <string name="userAddFragment_tv_mobile">موبایل:</string>
+    <string name="userAddFragment_et_mobile">شماره موبایل کاربر را در اینجا وارد کنید</string>
+    <string name="userAddFragment_tv_phone">تلفن:</string>
+    <string name="userAddFragment_et_phone">شماره تلفن کاربر را در اینجا وارد کنید</string>
+    <string name="userAddFragment_tv_address">آدرس:</string>
+    <string name="userAddFragment_et_address">آدرس کاربر را اینجا وارد کنید</string>
+
+    <string name="scheduleAddFragment_tv_select">انتخاب کاربر</string>
+    <string name="scheduleAddFragment_tv_name">نام زمان بند:</string>
+    <string name="scheduleAddFragment_tv_user">نام کاربر:</string>
+    <string name="scheduleAddFragment_tv_status">وضعیت:</string>
+    <string name="scheduleAddFragment_fb_status_on">فعال</string>
+    <string name="scheduleAddFragment_fb_status_off">غیر فعال</string>
+    <string name="scheduleAddFragment_tv_description">توضیحات:</string>
+    <string name="scheduleAddFragment_et_description">توضیحات کوتاه برای نمایش پیام</string>
+    <string name="scheduleAddFragment_et_name">نام زمان بند خود را در اینجا وارد کنید</string>
+    <string name="scheduleAddFragment_tv_date">تاریخ:</string>
+    <string name="scheduleAddFragment_tv_time">زمان:</string>
+
+    <string name="productSelect_et_count">تعداد درخواست:</string>
+    <string name="productSelect_bt_delete">حذف محصول</string>
+
+    <string name="orderAccept_dialog_send">این سفارش ارسال شده است.</string>
+    <string name="orderAccept_dialog_empty">هیچ محصولی برای این سفارش انتخاب نشده است.</string>
+
+    <string name="order_status_preOrder">پیش سفارش</string>
+    <string name="order_status_accept">تایید شده</string>
+    <string name="order_status_pay">پرداخت شده</string>
+    <string name="order_status_send">ارسال شده</string>
+
+    <string-array name="order_status">
+        <item>@string/order_status_preOrder</item>
+        <item>@string/order_status_accept</item>
+        <item>@string/order_status_pay</item>
+        <item>@string/order_status_send</item>
+    </string-array>
+
+    <string-array name="permission_message">
+        <item>خطا در اعمال دسترسی!</item>
+        <item>برای ذخیره عکس لطفا اجازه دسترسی به sdCard را بدهید.</item>
+        <item>برای ذخیره مخاطب لطفا اجازه دسترسی به Contacts را بدهید.</item>
+    </string-array>
+
+    <string-array name="global_message">
+        <item>در حال ذخیره سازی …</item>
+        <item>هیچ داده ای موجود نیست!</item>
+        <item>انتخاب کنید</item>
+        <item>خروج</item>
+        <item>ذخیره</item>
+        <item>خطا!</item>
+        <item>حذف</item>
+        <item>انتخاب</item>
+        <item>حذف کردن!!!</item>
+        <item>آیا برای پاک کردن مطمئن هستید؟</item>
+        <item>حذف موفقیت</item>
+        <item>موارد انتخاب شده حذف گردید.</item>
+    </string-array>
+
+    <string-array name="select_contact_message">
+        <item>انتخاب شماره همراه</item>
+        <item>انتخاب شماره تلفن</item>
+        <item>انتخاب آدرس</item>
+    </string-array>
+
+    <string-array name="authenticate_message">
+        <item>احراز هویت</item>
+        <item>لطفا پسورد دوم خود را وارد کنید</item>
+        <item>ورود</item>
+        <item>خطا در احراز هویت!</item>
+        <item>پسورد وارد شده صحیح نمی باشد.</item>
+        <item>خطا در تشخیص مسیر!</item>
+        <item>مقصد نامشخص است.</item>
+        <item>خطا در دریافت اطلاعات!</item>
+        <item>اطلاعات ارسالی صحیح نمی باشد.</item>
+        <item>کلمه عبور وارد شده کوتاه است!</item>
+        <item>آدرس ایمیل معتبر نیست!</item>
+    </string-array>
+
+    <string-array name="edit_message">
+        <item>بروزرسانی!</item>
+        <item>برای بروزرسانی روی تایید کلیک کنید.</item>
+        <item>بروز رسانی محصول</item>
+    </string-array>
+
+    <string-array name="basket_message">
+        <item>سبد خرید خالی است!</item>
+        <item>انتخاب</item>
+        <item>خطا در ایجاد سبد!</item>
+        <item>خطا در دریافت کاربر! لطفا دوباره تلاش کنید.</item>
+        <item>سبد خرید برای کاربر ساخته شد.</item>
+        <item>لیست محصولات</item>
+        <item>تعداد درخواست محصول باید بزرگتر از صفر باشد.</item>
+        <item>تعداد درخواست محصول از موجودی بیشتر است.</item>
+        <item>سبد خرید ساخته شد.</item>
+        <item>حذف محصول!</item>
+        <item>آیا برای حذف محصول از سبد مطمئن هستید؟</item>
+        <item>محصول از سبد خرید حذف گردید.</item>
+        <item>ثبت و پرداخت</item>
+        <item>خطا در دریافت سبد!</item>
+        <item>لطفا ابتدا سبد خرید را ایجاد کنید.</item>
+    </string-array>
+
+    <string-array name="user_message">
+        <item>کاربر جدید افزوده شد.</item>
+        <item>اطلاعات کاربر بروز رسانی شد.</item>
+        <item>خطا در ثبت کاربر</item>
+        <item>تصحیح کردن</item>
+        <item>انتخاب کاربر</item>
+        <item>نام کاربر:</item>
+    </string-array>
+
+    <string-array name="schedule_message">
+        <item>زمان بندی جدید افزوده شد.</item>
+        <item>اطلاعات زمان بندی بروز رسانی شد.</item>
+        <item>خطا در ثبت زمان بندی</item>
+        <item>تصحیح کردن</item>
+    </string-array>
+
+    <string-array name="userAddFragment_errors">
+        <item>لطفا نام کاربر را وارد کنید.</item>
+        <item>لطفا شماره موبایل یا تلفن کاربر را وارد کنید.</item>
+        <item>لطفا آدرس کاربر را وارد کنید.</item>
+    </string-array>
+
+    <string-array name="scheduleAddFragment_errors">
+        <item>لطفا کاربر را انتخاب کنید.</item>
+        <item>لطفا نام زمان بندی را وارد کنید.</item>
+        <item>لطفا توضیحات را وارد کنید.</item>
+        <item>تاریخ وارد شده معتبر نیست.</item>
+        <item>زمان وارد شده معتبر نیست.</item>
+    </string-array>
+
+    <string-array name="addProductActivity_message">
+        <item>محصول شما افزوده شد.</item>
+        <item>محصول شما بروز رسانی شد.</item>
+        <item>خطا در ثبت محصول</item>
+        <item>تصحیح کردن</item>
+        <item>محصول موجود نیست!</item>
+    </string-array>
+
+    <string-array name="addProductView_errors">
+        <item>لطفا یک عکس برای محصول انتخاب کنید.</item>
+        <item>لطفا نام محصول را وارد کنید.</item>
+        <item>لطفا توضیحاتی مختصر درباره محصول بدهید.</item>
+        <item>لطفا قیمت محصول را وارد کنید.</item>
+        <item>لطفا فقط یک عکس را برای محصول انتخاب نمایید.</item>
+    </string-array>
+
+    <string-array name="addProductView_spinner_item">
+        <item>انتخاب کنید</item>
+        <item>درصد</item>
+        <item>ریال</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="settings_header_mail">ورود و امنیت</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="settingsSecure_title_mail">آدرس پست الکترنیکی</string>
+    <string name="settingsSecure_title_password1">کلمه عبور (ورود)</string>
+    <string name="settingsSecure_title_password2">کلمه عبور (بروزرسانی)</string>
+</resources>

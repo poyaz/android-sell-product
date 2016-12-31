@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addProductView_sv_main"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="47dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/addProductView_iv_image"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@mipmap/ic_launcher"
+                android:padding="1dp"
+                android:layout_alignParentEnd="true"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@android:color/darker_gray"/>
+
+            <TextView
+                android:id="@+id/addProductView_tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="13dp"
+                android:layout_toStartOf="@id/addProductView_iv_image"
+                android:text="@string/addProductView_tv_title" />
+
+            <EditText
+                android:id="@+id/addProductView_et_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/addProductView_tv_title"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:layout_toStartOf="@id/addProductView_iv_image"
+                android:background="@android:drawable/editbox_background"
+                android:hint="@string/addProductView_et_title"
+                android:inputType="textNoSuggestions" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="13dp"
+            android:background="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/addProductView_tv_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="13dp"
+                android:labelFor="@+id/addProductView_et_info"
+                android:text="@string/addProductView_tv_info" />
+
+            <EditText
+                android:id="@+id/addProductView_et_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/addProductView_tv_info"
+                android:background="@android:drawable/editbox_background"
+                android:inputType="textNoSuggestions|textMultiLine"
+                android:lines="13"
+                android:maxLines="13"
+                android:minLines="5"
+                android:scrollHorizontally="false"
+                android:scrollbars="vertical" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="13dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:weightSum="9">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4">
+
+                <TextView
+                    android:id="@+id/addProductView_tv_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addProductView_tv_price" />
+
+                <EditText
+                    android:id="@+id/addProductView_et_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/addProductView_tv_price"
+                    android:background="@android:drawable/editbox_background"
+                    android:hint="@string/addProductView_et_price"
+                    android:inputType="numberSigned" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4">
+
+                <TextView
+                    android:id="@+id/addProductView_tv_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:labelFor="@+id/addProductView_et_count"
+                    android:text="@string/addProductView_tv_count" />
+
+                <EditText
+                    android:id="@+id/addProductView_et_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/addProductView_tv_count"
+                    android:background="@android:drawable/editbox_background"
+                    android:inputType="numberSigned" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:weightSum="9">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4">
+
+                <TextView
+                    android:id="@+id/addProductView_tv_off"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:labelFor="@+id/addProductView_et_off"
+                    android:text="@string/addProductView_tv_off" />
+
+                <EditText
+                    android:id="@+id/addProductView_et_off"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/addProductView_tv_off"
+                    android:background="@android:drawable/editbox_background"
+                    android:inputType="numberSigned" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4">
+
+                <TextView
+                    android:id="@+id/addProductView_tv_spinner_off"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addProductView_tv_spinner_off" />
+
+                <Spinner
+                    android:id="@+id/addProductView_spinner_off"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/addProductView_tv_spinner_off"
+                    android:entries="@array/addProductView_spinner_item"
+                    android:prompt="@string/addProductView_tv_spinner_off" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

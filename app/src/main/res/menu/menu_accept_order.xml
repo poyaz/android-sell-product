@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.woods.amin.Activity.AcceptOrderActivity">
+    <item
+        android:id="@+id/acceptOrderMenu_item_delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:orderInCategory="1"
+        android:title="@null"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/acceptOrderMenu_item_cancel"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        android:title="@null" />
+</menu>

@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.woods.amin.Fragment.UserViewFragment">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/userViewFragment_tv_noData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@null"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/userViewFragment_lv_user"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</FrameLayout>
